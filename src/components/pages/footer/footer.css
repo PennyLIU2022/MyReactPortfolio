@@ -1,0 +1,48 @@
+div {
+    display: flex;
+    align-items: center;
+  };
+  
+  .footer-icon {
+      display: inline-block;
+      margin-left: 15px;
+  }
+  
+  .footer-icon a {
+      width: 50px;
+      height: 50px;
+      background: rgb(149, 151, 253);
+      display: inline-flex;
+      border-radius: 50%;
+      margin-right: 6px;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+      border: 1px solid rgb(149, 151, 253);
+  }
+  
+  .footer-icon a::before {
+      content: "";
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      background-color: #ffffff;
+      border-radius: 50%;
+      transform: scale(0);
+      transition: 0.3s ease-in-out;
+  }
+  
+  .footer-icon a:hover::before {
+      transform: scale(1);
+  }
+  
+  .footer-icon a img {
+      width: 40%;
+      z-index: 1;
+      transition: 0.3s ease-in-out;
+  }
+  
+  .footer-icon a:hover img {
+      filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
+        hue-rotate(346deg) brightness(95%) contrast(86%);
+  }
