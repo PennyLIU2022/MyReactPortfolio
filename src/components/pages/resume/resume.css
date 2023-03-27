@@ -1,5 +1,6 @@
 .resume-section {
     padding: 60px 0 60px 0;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -10,6 +11,7 @@
 .resume {
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 
 /* * {
