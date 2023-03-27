@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../../assets/images/home-main.svg";
+import homeLogo from "../../../assets/images/home-main.png";
 import "./aboutMe.css";
 
 function aboutMe() {
