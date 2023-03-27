@@ -5,7 +5,7 @@ import "./footer.css"
 
 function footer(){
     return (
-      < footer class="d-flex justify-content-around" style={{ backgroundColor: rgb(149, 151, 253),}}>
+      <footer class="d-flex justify-content-around" style={{ backgroundColor: "lightgrey",}}>
         <div className="footer-icon">
           <a
             href="https://github.com/PennyLIU2022"

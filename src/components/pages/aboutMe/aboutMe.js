@@ -6,20 +6,20 @@ function aboutMe() {
     return(
         <section>
             <Container className="aboutme" id="aboutme">
-                <Row>
-                    <Col md={7} className="aboutme-header">
-                        <h1 style={{ paddingBottom: 15 }}>
+                <Row className="algin-items-center">
+                    <Col xs={12} md={6} xl={7} className="aboutme-header">
+                        <span className="span">
                             Welcome to 
-                            <strong className="name">Penny's</strong>
+                            <strong className="name"> Penny's </strong>
                             Portfolio
-                        </h1>
-
-                        <div style={{ padding: 50, textAlign: "left" }}>
+                        </span>
+                        <br />
+                        {/* <p>
                             <h2>A Full-Stack Developer</h2>
-                        </div>
+                        </p> */}
                     </Col>
 
-                    <Col md={5} style={{ paddingBottom: 20 }}> 
+                    <Col xs={12} md={6} xl={5} style={{ paddingBottom: 20 }}> 
                       <img 
                         src={homeLogo}
                         alt="home picture"

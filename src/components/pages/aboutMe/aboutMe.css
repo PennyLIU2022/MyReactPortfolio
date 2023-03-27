@@ -10,6 +10,11 @@
     padding-top: 80px !important;
 };
 
+.span{
+    font-weight: 700;
+    font-size: 100px;
+}
+
 .name {
     color: rgb(63, 0, 63)
 };
