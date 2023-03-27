@@ -17,7 +17,7 @@
 .contact form textarea {
   width: 100%;
   background: rgb(149, 151, 253);
-  border: 1px solid rgba(119, 53, 136, 0.459);
+  border: 3px solid rgba(66, 12, 80, 0.459);
   border-radius: 20px;
   color: #fff;
   margin: 0 0 8px 0;
@@ -26,12 +26,14 @@
   font-size: 18px;
   letter-spacing: 0.8px;
   transition: 0.3s ease-in-out;
+  padding-left: 20px;
 }
 .contact form input:focus,
 .contact form textarea:focus {
-  background: rgb(149, 151, 253);
+  background: #fff;
   color: #fff;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  padding-left: 20px;
 }
 .contact form input::placeholder,
 .contact form textarea::placeholder {
@@ -75,4 +77,8 @@
 }
 .submit-btn:hover::before {
   width: 100%;
+}
+
+.form-message {
+  padding-left: 20px;
 }

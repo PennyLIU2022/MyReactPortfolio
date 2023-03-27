@@ -13,14 +13,14 @@
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
-  height: auto !important;
+  height: 850px !important;
 }
 
 .projectCard {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: rgb(63, 0, 63) !important;
-  background-color: transparent !important;
-  opacity: 0.9 !important;
+  background-color: rgb(149, 151, 253);
+  /* opacity: 0.9 !important; */
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
@@ -44,7 +44,7 @@
   
 .btn-primary:hover {
   color: #fff !important;
-  background-color: rgba(119, 53, 136, 0.459) !important;
+  background-color: rgba(39, 5, 48, 0.459) !important;
   border-color: rgba(119, 53, 136, 0.459) !important;
 }
 

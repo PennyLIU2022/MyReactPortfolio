@@ -1,16 +1,13 @@
 .aboutme {
  margin-top: 0;
- padding: 280px 0 280px 0;
+ padding: 140px 0 150px 0;
  background-position: top center;
  background-size: cover;
  background-repeat: no-repeat;
 }
 
-.aboutme-header {
-    padding-top: 80px !important;
-};
-
 .span{
+    padding-left: 20px;
     font-weight: 700;
     font-size: 100px;
 }

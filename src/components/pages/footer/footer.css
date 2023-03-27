@@ -1,5 +1,5 @@
 footer{
-    position: absolute;
+    position: relative;
     left:0;
     bottom:0;
     right:0;
@@ -7,14 +7,13 @@ footer{
     height: 60px;
 }
 
-div {
-    display: flex;
-    align-items: center;
-};
+
   
 .footer-icon {
       display: inline-block;
       margin-left: 15px;
+      display: flex;
+      align-items: center;
 }
   
 .footer-icon a {

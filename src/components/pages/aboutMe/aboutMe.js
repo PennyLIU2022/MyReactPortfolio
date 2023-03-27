@@ -8,15 +8,21 @@ function aboutMe() {
             <Container className="aboutme" id="aboutme">
                 <Row className="algin-items-center">
                     <Col xs={12} md={6} xl={7} className="aboutme-header">
-                        <span className="span">
+                        <span>
+                            <h1>
                             Welcome to 
                             <strong className="name"> Penny's </strong>
                             Portfolio
+                           </h1>
+                           <br />
+                            <h4>A Web Developer</h4>
+                            <br />
+                            <h4>A React Developer</h4>
+                            <br />
+                            <h4>A Mern Developer</h4>
+                           <br />
+                            <h4>A Full-Stack Developer</h4>
                         </span>
-                        <br />
-                        {/* <p>
-                            <h2>A Full-Stack Developer</h2>
-                        </p> */}
                     </Col>
 
                     <Col xs={12} md={6} xl={5} style={{ paddingBottom: 20 }}> 
