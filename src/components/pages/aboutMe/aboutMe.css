@@ -1,0 +1,15 @@
+.aboutme {
+ margin-top: 0;
+ padding: 280px 0 280px 0;
+ background-position: top center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.aboutme-header {
+    padding-top: 80px !important;
+};
+
+.name {
+    color: rgb(63, 0, 63)
+};

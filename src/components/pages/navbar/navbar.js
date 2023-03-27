@@ -31,18 +31,18 @@ function navbar ({ currentPage, handlePageChange }) {
 
                 <Navbar.Collapse>
                     <Nav className="me-auto">
-                        <NavLink className={currentPage === "aboutMe" ?"active navbar-link": "navbar-link"} onClick={() => handlePageChange("about-me")}>
+                        <Nav.Link className={currentPage === "aboutMe" ?"active navbar-link": "navbar-link"} onClick={() => handlePageChange("about-me")}>
                             About Me
-                        </NavLink>
-                        <NavLink className={currentPage === "portfolio" ?"active navbar-link": "navbar-link"} onClick={() => handlePageChange("portfolio")}>
+                        </Nav.Link>
+                        <Nav.Link className={currentPage === "portfolio" ?"active navbar-link": "navbar-link"} onClick={() => handlePageChange("portfolio")}>
                             Portfolio
-                        </NavLink>
-                        <NavLink className={currentPage === "contact" ?"active navbar-link": "navbar-link"} onClick={() => handlePageChange("contact")}>
+                        </Nav.Link>
+                        <Nav.Link className={currentPage === "contact" ?"active navbar-link": "navbar-link"} onClick={() => handlePageChange("contact")}>
                             Contact
-                        </NavLink>
-                        <NavLink className={currentPage === "resume" ?"active navbar-link": "navbar-link"} onClick={() => handlePageChange("resume")}>
+                        </Nav.Link>
+                        <Nav.Link className={currentPage === "resume" ?"active navbar-link": "navbar-link"} onClick={() => handlePageChange("resume")}>
                             Resume
-                        </NavLink>
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
 
