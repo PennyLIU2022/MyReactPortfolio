@@ -19,7 +19,7 @@
   background: rgb(149, 151, 253);
   border: 3px solid rgba(66, 12, 80, 0.459);
   border-radius: 20px;
-  color: #fff;
+  color: black;
   margin: 0 0 8px 0;
   padding: 18px 26px;
   font-weight: 500;
@@ -31,7 +31,7 @@
 .contact form input:focus,
 .contact form textarea:focus {
   background: #fff;
-  color: #fff;
+  color: black;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
   padding-left: 20px;
 }
@@ -66,7 +66,7 @@
 }
 .submit-btn::before {
   content: "";
-  background: #121212;
+  background: rgba(35, 3, 43, 0.561);
   width: 0;
   height: 100%;
   position: absolute;
