@@ -6,7 +6,7 @@ import Blog from "../../../assets/images/blog.png";
 import Weather from "../../../assets/images/weather.png";
 import Note from "../../../assets/images/note.png";
 import Schedule from "../../../assets/images/schedule.png";
-import Quiz from "../../../assets/images/quiz.png";
+import Readme from "../../../assets/images/Readme.png";
 
 function portfolio() {
   return (
