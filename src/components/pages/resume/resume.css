@@ -1,17 +1,17 @@
 .resume-section {
-    padding: 60px 0 60px 0;
-    background-size: cover;
-    background-repeat: no-repeat;
+  padding: 60px 0 60px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
 }
 
 .resume-container {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .resume {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /* * {
